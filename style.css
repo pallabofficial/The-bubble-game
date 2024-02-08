@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(127, 255, 212, 0.274);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#panel{
+    width:60%;
+    height:75%;
+    background-color: rgba(127, 255, 212, 0.623);
+    border-radius: 10px;;
+}
