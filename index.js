@@ -1,7 +1,9 @@
 
 let bubbleHtmlCode = "";
+
 for(let i = 0; i < 2000; i++){
-    bubbleHtmlCode += `<div class="bubble">500</div>`;
+    let randomValue = Math.floor(Math.random()*100);
+    bubbleHtmlCode += `<div class="bubble">${randomValue}</div>`;
 }
 
 document.querySelector("#panel-game").innerHTML  = bubbleHtmlCode;
