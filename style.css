@@ -59,17 +59,27 @@
     height:85%;
     width:100%;
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
    align-content: flex-start;
-    align-items: flex-start;  
+    /* align-items: flex-start;   */
     flex-wrap: wrap;
    gap:1vw;
    padding:1vw;
+   overflow: hidden; /* Ensure overflow is hidden */
+   position: relative; /* Set position to relative */
 }
 .bubble{
+    color:whitesmoke;
     height:15%;
     aspect-ratio: 1/1;
    
     border-radius: 50%;
-    background-color: black;
+    background-color: rgba(11, 97, 51, 0.779);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-family: "Oxanium", sans-serif;
+    box-sizing: border-box;
+
 }
