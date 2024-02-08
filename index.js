@@ -1,7 +1,7 @@
 
 let bubbleHtmlCode = "";
-for(let i = 0; i < 200; i++){
-    bubbleHtmlCode += `<div class="bubble">100</div>`;
+for(let i = 0; i < 2000; i++){
+    bubbleHtmlCode += `<div class="bubble">500</div>`;
 }
 
 document.querySelector("#panel-game").innerHTML  = bubbleHtmlCode;

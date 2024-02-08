@@ -64,7 +64,7 @@
     /* align-items: flex-start;   */
     flex-wrap: wrap;
    gap:1vw;
-   padding:1vw;
+   padding:2vw;
    overflow: hidden; /* Ensure overflow is hidden */
    position: relative; /* Set position to relative */
 }
@@ -78,8 +78,42 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-family: "Oxanium", sans-serif;
     box-sizing: border-box;
 
 }
+/* 
+
+---------------------------------------------------responsiveness----------------------------------- */
+
+@media(max-width:480px){  /*for small screens(mobile phones)*/
+    
+    #panel{
+        width:100%;
+        height:100%;
+    }
+    #panel-top{
+        /* height:30%; */
+        font-size: 2vh;
+    }
+    .value{
+        width:30%;
+    }
+    
+    .bubble{
+        height:15%;
+        font-size: 3vh;
+    }
+    #panel-game{
+        /* height:70%; */
+        gap:1vh;
+        padding:2vh;
+        padding-top: 3vh;
+        
+    }
+    #panel-top{
+        height:10%;
+    }
+}
+
