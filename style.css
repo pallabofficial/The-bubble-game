@@ -15,6 +15,61 @@
 #panel{
     width:60%;
     height:75%;
-    background-color: rgba(127, 255, 212, 0.623);
-    border-radius: 10px;;
+    background-color: rgba(43, 151, 43, 0.623);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#panel-top{
+    height:15%;
+    width:100%;
+    background-color: rgb(43, 151, 43);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 2vw;
+}
+.game-info{
+    width:30%;
+    height:80%;
+    display: flex;
+    gap:1vw;
+    justify-content: center;
+    align-items: center;
+}
+.value{
+    width:30%;
+    aspect-ratio: 4/2;
+    color:black;
+    font-family: "Oxanium", sans-serif;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#panel-game{
+    height:85%;
+    width:100%;
+   display: flex;
+   justify-content: flex-start;
+   align-content: flex-start;
+    align-items: flex-start;  
+    flex-wrap: wrap;
+   gap:1vw;
+   padding:1vw;
+}
+.bubble{
+    height:15%;
+    aspect-ratio: 1/1;
+   
+    border-radius: 50%;
+    background-color: black;
 }
