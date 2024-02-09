@@ -1,5 +1,14 @@
 
 let bubbleHtmlCode = "";
+let timer = 60;
+setInterval(function(){
+    
+    document.querySelector("#timer-value").innerHTML = `${timer}`;
+    if(timer>0){
+        timer--;
+    }
+    
+},1000)
 
 for(let i = 0; i < 2000; i++){
     let randomValue = Math.floor(Math.random()*100);
