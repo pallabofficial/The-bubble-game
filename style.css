@@ -67,6 +67,7 @@
    padding:2vw;
    overflow: hidden; /* Ensure overflow is hidden */
    position: relative; /* Set position to relative */
+   
 }
 .bubble{
     color:whitesmoke;
@@ -119,4 +120,7 @@
         height:10%;
     }
 }
+
+
+
 

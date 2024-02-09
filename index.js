@@ -5,6 +5,7 @@ let randomValue;
 let target;
 let score = 0;
 
+
 function setTimer(){
     let timing = setInterval(function(){
     
